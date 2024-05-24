@@ -7,25 +7,28 @@ const categorias = {
             detalle: "Juegos de mesa de estrategia.",
             juegos: [
                 {
-                    titulo: "Age of Empires IV",
-                    descripcion:
-                        "Un juego de estrategia en tiempo real épico que abarca desde la Edad Media hasta la Edad Moderna.",
-                    precioNormal: 59.99,
-                    precioOferta: 44.99,
+                    cod: 'A001',
+                    titulo: "Catan - El Juego",
+                    descripcion: "En Catan, los jugadores intentan ser la fuerza dominante en la isla de Catan mediante la construcción de asentamientos, ciudades y carreteras. En cada turno se tiran los dados para determinar qué recursos produce la isla.",
+                    precioNormal: "$34.990",
+                    precioOferta: "",
+                    img_url: "catan-el-juego.jpg",
                 },
                 {
-                    titulo: "Civilization VI",
-                    descripcion:
-                        "Un juego de estrategia por turnos donde construyes un imperio para resistir la prueba del tiempo.",
-                    precioNormal: 59.99,
-                    precioOferta: 29.99,
+                    cod: 'A002',
+                    titulo: "¡Aventureros al Tren! San Francisco",
+                    descripcion: "¡Bienvenidos a San Francisco! Puedes sentir el peso de los souvenirs en la mochila mientras te asomas desde el tranvía.",
+                    precioNormal: "$25.990",
+                    precioOferta: "$19.990",
+                    img_url: "aventureros-al-tren-san-francisco.jpg",
                 },
                 {
-                    titulo: "StarCraft II",
-                    descripcion:
-                        "Un juego de estrategia en tiempo real ambientado en un futuro lejano con tres razas jugables.",
-                    precioNormal: 39.99,
-                    precioOferta: 19.99,
+                    cod: 'A003',
+                    titulo: "Pendulum",
+                    descripcion: "Los jugadores deben usar el tiempo real como un recurso y afinar la estrategia para superar a sus oponentes. Fue el prototipo mejor calificado en la historia del del Diseño de Stonemaier Games.",
+                    precioNormal: "$59.990",
+                    precioOferta: "$50.992",
+                    img_url: "pendulum.jpg",
                 },
             ],
         },
@@ -36,25 +39,28 @@ const categorias = {
             detalle: "Juegos de mesa para fiestas.",
             juegos: [
                 {
-                    titulo: "Mario Party Superstars",
-                    descripcion:
-                        "Un juego de fiesta con los personajes de Mario y minijuegos clásicos.",
-                    precioNormal: 59.99,
-                    precioOferta: 49.99,
+                    cod: 'A004',
+                    titulo: "Taco Gatito Pizza",
+                    descripcion: "Este juego de cartas requiere de toda tu atención y rapidez. ¡Sobre todo rapidez! La vas a necesitar para no quedarte con todas las cartas del centro de la mesa.",
+                    precioNormal: "$11.990",
+                    precioOferta: "",
+                    img_url: "taco-gatito-pizza.jpg",
                 },
                 {
-                    titulo: "Among Us",
-                    descripcion:
-                        "Un juego de deducción social donde los jugadores trabajan juntos para identificar al impostor.",
-                    precioNormal: 4.99,
-                    precioOferta: 3.99,
+                    cod: 'A005',
+                    titulo: "Dixit: Harmonies",
+                    descripcion: "Dixit Expansión: Harmonies (Dixit 8) es la octava expansión para el juego Dixit, incorpora el arte único y poderoso de Paul Echegoye, contiene 84 nuevas cartas para que pongan a volar la imaginación.",
+                    precioNormal: "$25.000",
+                    precioOferta: "$19.990",
+                    img_url: "dixit-harmonies.jpg",
                 },
                 {
-                    titulo: "Fall Guys",
-                    descripcion:
-                        "Un juego de batalla real multijugador con obstáculos locos y divertidos.",
-                    precioNormal: 19.99,
-                    precioOferta: 14.99,
+                    cod: 'A006',
+                    titulo: "¡Hula-Hula!",
+                    descripcion: "¡El gran mundial de Hula Hula ha comenzado! Animales de todo el mundo se han congregado para demostrar sus dotes.",
+                    precioNormal: "$20.000",
+                    precioOferta: "$12.990",
+                    img_url: "hula-hula.jpg",
                 },
             ],
         },
@@ -65,25 +71,28 @@ const categorias = {
             detalle: "Juegos de mesa cooperativos.",
             juegos: [
                 {
-                    titulo: "Overcooked! 2",
-                    descripcion:
-                        "Un juego de cocina cooperativo caótico donde los jugadores deben trabajar juntos para servir comidas.",
-                    precioNormal: 24.99,
-                    precioOferta: 12.49,
+                    cod: 'A007',
+                    titulo: "Exit Kids: Acertijos en la Jungla",
+                    descripcion: "EXIT Kids: Acertijos en la jungla es un juego de escape cooperativo, que se puede disfrutar en solitario o en un grupo de hasta 4 personas, a partir de 5 años, en partidas que pueden durar unos 20 minutos.",
+                    precioNormal: "$14.990",
+                    precioOferta: "",
+                    img_url: "exit-kids-acertijos-en-la-jungla-.jpg",
                 },
                 {
-                    titulo: "Portal 2",
-                    descripcion:
-                        "Un juego de rompecabezas en primera persona con un modo cooperativo desafiante.",
-                    precioNormal: 9.99,
-                    precioOferta: 4.99,
+                    cod: 'A008',
+                    titulo: "Tales & Games: Aladdin & the Magic Lamp",
+                    descripcion: "El hechicero te ha enviado, un pilluelo de la calle como Aladdin, a una cueva para buscar una lámpara mágica que te permita invocar los favores de un genio.",
+                    precioNormal: "$30.000",
+                    precioOferta: "$24.990",
+                    img_url: "tales-games-aladdin-the-magic-lamp.jpg",
                 },
                 {
-                    titulo: "Minecraft",
-                    descripcion:
-                        "Un juego de mundo abierto donde los jugadores pueden construir y explorar juntos.",
-                    precioNormal: 26.95,
-                    precioOferta: 19.95,
+                    cod: 'A009',
+                    titulo: "Pandemic: Estado de Emergencia",
+                    descripcion: "Salvar el mundo se ha vuelto un poco más difícil en Pandemic: Estado de Emergencia, una expansión para Pandemic.",
+                    precioNormal: "$39.990",
+                    precioOferta: "$33.992",
+                    img_url: "pandemic-estado-de-emergencia.jpg",
                 },
             ],
         },
@@ -94,25 +103,28 @@ const categorias = {
             detalle: "Juegos de mesa temáticos.",
             juegos: [
                 {
-                    titulo: "Red Dead Redemption 2",
-                    descripcion:
-                        "Un juego de mundo abierto ambientado en el Salvaje Oeste.",
-                    precioNormal: 59.99,
-                    precioOferta: 29.99,
+                    cod: 'A010',
+                    titulo: "Master of Orion: El Juego de Mesa",
+                    descripcion: "Master of Orion: El Juego de Mesa te lleva al mundo del legendario videojuego de estrategia. Vas a dirigir a una de las razas que se enfrentarán en la confrontación con el espacio exterior.",
+                    precioNormal: "$19.990",
+                    precioOferta: "",
+                    img_url: "master-of-orion-el-juego-de-mesa.jpg",
                 },
                 {
-                    titulo: "Assassin's Creed Valhalla",
-                    descripcion:
-                        "Un juego de acción y aventura ambientado en la era vikinga.",
-                    precioNormal: 59.99,
-                    precioOferta: 39.99,
+                    cod: 'A011',
+                    titulo: "Dune: A Game of Conquest and Diplomacy",
+                    descripcion: "¡Participa en una de las historias de ciencia ficción más famosas de todos los tiempos! Control de una de las cuatro grandes facciones: la Casa Atreides, la Casa Harkonnen, los Fremen y el Imperio.",
+                    precioNormal: "$59.990",
+                    precioOferta: "$47.992",
+                    img_url: "dune-a-game-of-conquest-and-diplomacy.jpg",
                 },
                 {
-                    titulo: "The Witcher 3: Wild Hunt",
-                    descripcion:
-                        "Un juego de rol ambientado en un mundo de fantasía oscura.",
-                    precioNormal: 39.99,
-                    precioOferta: 19.99,
+                    cod: 'A012',
+                    titulo: "Rambo: The Board Game - First Blood",
+                    descripcion: "¡Conviértete en Rambo y toma el control de la historia de la película First Blood! Revive la acción y llénate de nostalgia en este juego de mesa en solitario.",
+                    precioNormal: "$49.990",
+                    precioOferta: "$39.992",
+                    img_url: "rambo-the-board-game-first-blood.jpg",
                 },
             ],
         },
@@ -164,4 +176,115 @@ const renderIndex = () => {
         viewMain.appendChild(col);
     });
 }
+const renderCategoria = () => {
+    const viewMain = document.getElementById('viewMain');
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoriaId = urlParams.get('id');
+    const categoria = categorias.categorias.find(cat => cat.id === parseInt(categoriaId));
 
+    if (categoria) {
+        document.title = `TIJUME GAMES | ${categoria.nombre}`;
+
+        // Limpiar el contenido previo de viewMain
+        viewMain.innerHTML = '';
+
+        // Agregar el encabezado de la categoría
+        const headerRow = document.createElement('div');
+        headerRow.classList.add('row');
+
+        const headerCol = document.createElement('div');
+        headerCol.classList.add('col-12');
+
+        const heading = document.createElement('h2');
+        heading.classList.add('text-center');
+        heading.textContent = `Juegos ${categoria.nombre.toLowerCase()}`;
+
+        headerCol.appendChild(heading);
+        headerRow.appendChild(headerCol);
+        viewMain.appendChild(headerRow);
+
+        categoria.juegos.forEach(juego => {
+            const col = document.createElement('div');
+            col.classList.add('col-12', 'mb-2');
+      
+            const card = document.createElement('div');
+            card.classList.add('card');
+      
+            const row = document.createElement('div');
+            row.classList.add('row', 'g-0');
+      
+            const imgCol = document.createElement('div');
+            imgCol.classList.add('col-md-4', 'text-center');
+      
+            const img = document.createElement('img');
+            img.src = `assets/img/${juego.img_url}`;
+            img.alt = 'Imagen';
+            img.classList.add('img-fluid', 'rounded-start');
+      
+            const contentCol = document.createElement('div');
+            contentCol.classList.add('col-md-8');
+      
+            const cardBody = document.createElement('div');
+            cardBody.classList.add('card-body');
+      
+            const title = document.createElement('h5');
+            title.classList.add('card-title');
+            title.textContent = juego.titulo;
+      
+            const description = document.createElement('p');
+            description.classList.add('card-text');
+            description.textContent = juego.descripcion;
+      
+            const price = document.createElement('p');
+            price.classList.add('price');
+            price.textContent = `Precio normal: ${juego.precioNormal}`;
+      
+            const discountPrice = document.createElement('p');
+            discountPrice.classList.add('discount-price');
+      
+            if (juego.precioOferta) {
+              discountPrice.textContent = `Precio con descuento: ${juego.precioOferta}`;
+            }
+      
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.classList.add('btn', 'btn-primary');
+            button.textContent = 'Agregar al carrito';
+      
+            cardBody.appendChild(title);
+            cardBody.appendChild(description);
+            cardBody.appendChild(price);
+      
+            if (juego.precioOferta) {
+              cardBody.appendChild(discountPrice);
+            }
+      
+            cardBody.appendChild(button);
+      
+            contentCol.appendChild(cardBody);
+      
+            imgCol.appendChild(img);
+      
+            row.appendChild(imgCol);
+            row.appendChild(contentCol);
+      
+            card.appendChild(row);
+      
+            col.appendChild(card);
+      
+            viewMain.appendChild(col);
+        });
+    } else {
+        viewMain.innerHTML = `
+        <div class="container pt-2 pb-2 ps-4 pe-4">
+            <div class="row">
+                <div class="col-sm-12 p-0">
+                    <div class="alert alert-warning mb-0 mt-4" role="alert">
+                        <h4 class="alert-heading text-center"><i class="bi bi-exclamation-triangle-fill"></i> Categoría no encontrada.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `;
+    }
+}
