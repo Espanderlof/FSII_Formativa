@@ -56,27 +56,27 @@
             <div class="row justify-content-center" id="viewMain">               
                 <form>
                     <div class="mb-3">
-                        <label for="nombreCompleto" class="form-label">Nombre Completo</label>
+                        <label for="nombreCompleto" class="form-label">Nombre Completo *</label>
                         <input type="text" class="form-control" id="nombreCompleto" maxlength="100" required>
                     </div>
                     <div class="mb-3">
-                        <label for="nombreUsuario" class="form-label">Nombre de Usuario</label>
+                        <label for="nombreUsuario" class="form-label">Nombre de Usuario *</label>
                         <input type="text" class="form-control" id="nombreUsuario" maxlength="100" required>
                     </div>
                     <div class="mb-3">
-                        <label for="correoElectronico" class="form-label">Correo Electrónico</label>
+                        <label for="correoElectronico" class="form-label">Correo Electrónico *</label>
                         <input type="email" class="form-control" id="correoElectronico" maxlength="100" required>
                     </div>
                     <div class="mb-3">
-                        <label for="contrasena" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="contrasena" maxlength="100" required>
+                        <label for="contrasena" class="form-label">Contraseña *</label>
+                        <input type="password" class="form-control" id="contrasena" maxlength="18" required>
                     </div>
                     <div class="mb-3">
-                        <label for="repetirContrasena" class="form-label">Repetir Contraseña</label>
-                        <input type="password" class="form-control" id="repetirContrasena" maxlength="100" required>
+                        <label for="repetirContrasena" class="form-label">Repetir Contraseña *</label>
+                        <input type="password" class="form-control" id="repetirContrasena" maxlength="18" required>
                     </div>
                     <div class="mb-3">
-                        <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+                        <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento *</label>
                         <input type="date" class="form-control" id="fechaNacimiento" required>
                     </div>
                     <div class="mb-3">
@@ -84,7 +84,8 @@
                         <textarea class="form-control" id="direccionDespacho" rows="3" maxlength="250" required></textarea>
                     </div>
                     <div class="text-center">
-                        <button onclick="registroUsuarioValidar(this);" type="button" class="btn btn-primary">Registrarse</button>
+                        <button onclick="registroUsuarioLimpiarForm();" type="button" class="btn btn-secondary">Limpiar formulario</button>
+                        <button onclick="registroUsuarioValidar();" type="button" class="btn btn-primary">Registrarme</button>
                     </div>
                 </form>
             </div>
